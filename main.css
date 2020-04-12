@@ -21,8 +21,6 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-}
 
 li a.active {
   border-radius: 10px;
