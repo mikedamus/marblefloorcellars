@@ -2,25 +2,30 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
 
 /*MAIN*/
-body { 
-	font-size: 1.05em;
-	line-height: 1.25em;
-	font-family: Helvetica Neue, Helvetica, Arial;
-	background: #f9f9f9;
-	color: #555;
+body {
+  background-color: black;
+  font-family: Georgia;
+}
+
+
+h4 {
+	color: white;
+		font-weight: bold;	
+    text-align: center;
+	font-size: 28px;
+	font-family:
 }
 
 a {
 
-	color: #4C9CF1;
+	color: white;
 	text-decoration: none;
 	font-weight: bold;
-
 }
 
 a:hover {
 
-	color: #444;
+	color: #722f37;
 
 }
 
@@ -32,41 +37,43 @@ img {
 
 header {
 
-	background: #fff;
+	background:black;
 	width: 100%;
-	height: 76px;
+	height: 80px;
 	position: fixed;
 	top: 0;
 	left: 0;
-	border-bottom: 4px solid #4C9CF1;
-	z-index: 100;
+	border-bottom: 8px solid #722f37;
+	color: White 
 
 }
 
 #logo{
 
-	margin: 20px;
+	margin: 30px;
 	float: left;
-	width: 200px;
-	height: 40px;
-	background: url(../img/logo.png) no-repeat center;
+	width: 300px;
+	height: 80px;
+	background:  no-repeat center;
 	display: block;
 
 }
 
+
 nav {
 
 	float: right;
-	padding: 20px;	
+	padding: 17px;	
 
 }
 
 #menu-icon {
 
-	display: hidden;
-	width: 40px;
-	height: 40px;
-	background: #4C8FEC url(../img/menu-icon.png) center;
+	width: 50px;
+	height: 50px;
+	background:  url(https://stonecenterinc.com/sc_14/wp-content/uploads/2014/11/wine-spill-on-carrara-marble.jpg) center;
+	background-size: 50px 50px;
+	border-radius:5px;
 
 }
 
@@ -110,8 +117,8 @@ li {
 		display: none;
 		position: absolute;
 		padding: 20px;
-		background: #fff;
-		border: 5px solid #444;
+		background: black;
+		border: 5px solid black;
 		right: 20px;
 		top: 60px;
 		width: 50%;
@@ -172,10 +179,7 @@ title {
   font-size: 20px;
 }
 
-body {
-  background-color: black;
-  font-family: sans-serif;
-}
+
 
 h1 {
   color: red;
