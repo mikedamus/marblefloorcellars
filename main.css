@@ -3,8 +3,8 @@ ul {
   top: 0;
   width: 100%;
   list-style-type: none;
-  margin: 10;
-  padding: 0;
+  margin: 0;
+  padding: 10;
   background-color: black;
 }
 
@@ -74,8 +74,8 @@ p {
 }
 
 #ratingsdiv {
-  width: 700px;
-  height: 400px;
+  width: 1070px;
+  height: 100%;
   border: 5px solid #000;
   overflow: hidden;
   margin-left: 10px;
@@ -83,8 +83,8 @@ p {
 }
 
 #ratingsdiv iframe {
-  width: 800px;
-  height: 500px;
+  width: 1070px;
+  height: 3000px;
   margin-left: -2px;
   margin-top: -37px;
   margin-bottom: -30px;
