@@ -175,7 +175,7 @@ ul {
 
 
 #ratingsdiv {
-  width: 1070px;
+  width: 1060px;
   height: 100%;
   border: 5px solid #000;
   overflow: hidden;
@@ -186,7 +186,8 @@ ul {
 #ratingsdiv iframe {
   width: 1100px;
   height: 3000px;
-  margin-left: -2px;
   margin-top: -37px;
+    margin-left: -6px;
+
 }
 }
