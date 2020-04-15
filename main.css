@@ -11,7 +11,7 @@ h4 {
 	color: white;
     font-weight: bold;	
     text-align: center;
-	font-size: 28px;
+	font-size: 24px;
 	font-family: Georgia;
 }
 
@@ -43,8 +43,7 @@ header {
 	top: 0;
 	left: 0;
 	border-bottom: 8px solid #722f37;
-	color: White 
-
+	color: White; 
 }
 
 #logo{
